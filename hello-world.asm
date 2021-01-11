@@ -7,7 +7,7 @@ section .text
 _start:
 	mov rax, 1
 	mov rdi, 1
-	mov rsi, text
+	mov rsi, texta
     mov rdx, 14
     syscall
 
